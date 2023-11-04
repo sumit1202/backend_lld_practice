@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "threads.threaded_merge_sort.Main",
+            "projectName": "testing_dbfda862"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Driver",
+            "request": "launch",
+            "mainClass": "oops.task1.Driver",
+            "projectName": "testing_dbfda862"
+        },
+        {
+            "type": "java",
+            "name": "Driver(1)",
+            "request": "launch",
+            "mainClass": "oops.task2.Driver",
+            "projectName": "testing_dbfda862"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "rough.Solution",
+            "projectName": "testing_dbfda862"
+        },
+        {
+            "type": "java",
+            "name": "Test3",
+            "request": "launch",
+            "mainClass": "rough.Test3",
+            "projectName": "testing_dbfda862"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "sorting_algos.BubbleSort",
+            "projectName": "testing_dbfda862"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "sorting_algos.InsertionSort",
+            "projectName": "testing_dbfda862"
+        },
+        {
+            "type": "java",
+            "name": "InsertionSort2",
+            "request": "launch",
+            "mainClass": "sorting_algos.InsertionSort2",
+            "projectName": "testing_dbfda862"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "sorting_algos.MergeSort",
+            "projectName": "testing_dbfda862"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "sorting_algos.QuickSort",
+            "projectName": "testing_dbfda862"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "sorting_algos.SelectionSort",
+            "projectName": "testing_dbfda862"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "threads.task1.Main",
+            "projectName": "testing_dbfda862"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "threads.task2.Main",
+            "projectName": "testing_dbfda862"
+        }
+    ]
+}
