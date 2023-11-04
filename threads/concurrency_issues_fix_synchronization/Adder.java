@@ -12,11 +12,13 @@ public class Adder implements Callable<Void> {
     @Override
     public Void call() throws Exception {
         for (int i = 1; i <= 100000; i++) {
+            // synchronized block -> taking lock on obj
+            // synchronized(a){
+            //     a.val+=i;
+            // }
 
-            synchronized (a) {
-                this.a.val += i;
-            }
-
+            // synchronized method -> taking lock on obj
+            this.a.add(i);
         }
         return null;
     }
