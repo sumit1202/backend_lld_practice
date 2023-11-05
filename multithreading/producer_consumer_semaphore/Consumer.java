@@ -1,25 +1,29 @@
 package multithreading.producer_consumer_semaphore;
 
-public class Consumer implements Runnable {
-    private Store store;
+import java.util.concurrent.Semaphore;
 
-    public Consumer(Store store) {
+public class Consumer implements Runnable {
+
+    private Store store;
+    public Semaphore prodSemaphore;
+    public Semaphore consSemaphore;
+
+    public Consumer(Store store, Semaphore prodSemaphore, Semaphore consSemaphore) {
         this.store = store;
+        this.prodSemaphore = prodSemaphore;
+        this.consSemaphore = consSemaphore;
     }
 
     @Override
     public void run() {
         while (true) {
-            // if (store.getItems().size() > 0) {
-            // store.removeItem();
-            // }
-            
-            // not so good optimization
-            synchronized (store) {
-                if (store.getItems().size() > 0) {
-                    store.removeItem();
-                }
-            }
+            try {
+                consSemaphore.acquire();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } // means -> consSemaphore++
+            store.removeItem();
+            prodSemaphore.release(); // prodSemaphore -> consSemaphore--
         }
     }
 

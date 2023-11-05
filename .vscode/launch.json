@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "multithreading.producer_consumer_semaphore.Main",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "threads.producer_consumer.Main",
             "projectName": "backend_lld_practice_2fb3a2ef"
         },
