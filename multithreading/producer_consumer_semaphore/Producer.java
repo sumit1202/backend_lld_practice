@@ -18,13 +18,14 @@ public class Producer implements Runnable {
     public void run() {
         while (true) {
             try {
-                prodSemaphore.acquire();
+                prodSemaphore.acquire(); // means -> prodSemaphore--
+                // Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
             store.addItem();
             ;
-            consSemaphore.release();
+            consSemaphore.release(); // means -> consSemaphore++
             ;
         }
 
