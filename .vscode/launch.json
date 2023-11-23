@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test5",
+            "request": "launch",
+            "mainClass": "rough.Test5",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "multithreading.producer_consumer_semaphore.Main",
