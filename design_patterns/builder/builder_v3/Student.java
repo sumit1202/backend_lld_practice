@@ -1,4 +1,4 @@
-package design_patterns.builder;
+package design_patterns.builder.builder_v3;
 
 public class Student {
     private String firstname;
@@ -7,17 +7,15 @@ public class Student {
     private String gradYear;
     // ? ......snd so on say long list of attributes
 
-    public static StudentBuilder getBuilder() {
-        return new StudentBuilder();
-    }
-
     Student(StudentBuilder builder) {
-
-        // ? validations can be performed here
         this.firstname = builder.getFirstname();
         this.lastname = builder.getLastname();
         this.age = builder.getAge();
         this.gradYear = builder.getGradYear();
+    }
+
+    public static StudentBuilder getBuilder() {
+        return new StudentBuilder();
     }
 
     public String getFirstname() {
@@ -57,4 +55,5 @@ public class Student {
         return "Student [firstname=" + firstname + ", lastname=" + lastname + ", age=" + age + ", gradYear=" + gradYear
                 + "]";
     }
+
 }

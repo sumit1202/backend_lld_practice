@@ -8,6 +8,41 @@
             "type": "java",
             "name": "Client",
             "request": "launch",
+            "mainClass": "design_patterns.builder.builder_v4.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.builder_v4.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.builder_v3.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.builder_v2.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.builder_v1.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
             "mainClass": "design_patterns.builder.Client",
             "projectName": "backend_lld_practice_2fb3a2ef"
         },

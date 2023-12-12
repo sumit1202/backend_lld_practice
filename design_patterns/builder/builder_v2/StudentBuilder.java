@@ -1,4 +1,4 @@
-package design_patterns.builder;
+package design_patterns.builder.builder_v2;
 
 //? Builder/Helper class
 public class StudentBuilder {
