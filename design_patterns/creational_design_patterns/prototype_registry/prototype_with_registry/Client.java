@@ -3,9 +3,9 @@ package design_patterns.creational_design_patterns.prototype_registry.prototype_
 public class Client {
 
     public static void fillStudentRegistry(StudentRegistry studentRegistry) {
-        Student batchA = new Student();
-        batchA.setBatch("batchA");
-        studentRegistry.register("batchA", batchA);
+        Student batchAStudents = new Student();
+        batchAStudents.setBatch("batchA");
+        studentRegistry.register("batchA", batchAStudents);
     }
 
     public static void main(String[] args) {
