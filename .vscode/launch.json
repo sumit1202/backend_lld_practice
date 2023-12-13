@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Client",
             "request": "launch",
+            "mainClass": "design_patterns.prototype_registry.prototype_with_registry.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.prototype_registry.prototype.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
             "mainClass": "design_patterns.builder.builder_v4.Client",
             "projectName": "backend_lld_practice_2fb3a2ef"
         },

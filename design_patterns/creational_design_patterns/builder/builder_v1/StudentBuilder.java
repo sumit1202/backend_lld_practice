@@ -1,4 +1,4 @@
-package design_patterns.builder.builder_v2;
+package design_patterns.creational_design_patterns.builder.builder_v1;
 
 //? Builder/Helper class
 public class StudentBuilder {
@@ -7,11 +7,6 @@ public class StudentBuilder {
     private int age;
     private String gradYear;
     // ? ......snd so on say long list of attributes
-
-    // ! v3
-    public Student build() {
-        return new Student(this);
-    }
 
     public String getFirstname() {
         return firstname;

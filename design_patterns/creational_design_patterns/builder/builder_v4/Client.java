@@ -1,4 +1,4 @@
-package design_patterns.builder.builder_v4;
+package design_patterns.creational_design_patterns.builder.builder_v4;
 
 public class Client {
     public static void main(String[] args) {

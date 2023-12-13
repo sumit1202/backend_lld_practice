@@ -1,4 +1,4 @@
-package design_patterns.builder.builder_v1;
+package design_patterns.creational_design_patterns.builder.builder_v2;
 
 public class Student {
     private String firstname;
@@ -7,6 +7,9 @@ public class Student {
     private String gradYear;
     // ? ......snd so on say long list of attributes
 
+    public static StudentBuilder getBuilder() {
+        return new StudentBuilder();
+    }
 
     Student(StudentBuilder builder) {
 

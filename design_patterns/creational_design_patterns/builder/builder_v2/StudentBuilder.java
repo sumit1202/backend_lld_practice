@@ -1,5 +1,6 @@
-package design_patterns.builder.builder_v3;
+package design_patterns.creational_design_patterns.builder.builder_v2;
 
+//? Builder/Helper class
 public class StudentBuilder {
     private String firstname;
     private String lastname;
@@ -7,9 +8,8 @@ public class StudentBuilder {
     private String gradYear;
     // ? ......snd so on say long list of attributes
 
+    // ! v3
     public Student build() {
-
-        // ? if validatiions pass then execute below, else throw exceptions
         return new Student(this);
     }
 
@@ -17,36 +17,32 @@ public class StudentBuilder {
         return firstname;
     }
 
-    public StudentBuilder setFirstname(String firstname) {
+    public void setFirstname(String firstname) {
         this.firstname = firstname;
-        return this;
     }
 
     public String getLastname() {
         return lastname;
     }
 
-    public StudentBuilder setLastname(String lastname) {
+    public void setLastname(String lastname) {
         this.lastname = lastname;
-        return this;
     }
 
     public int getAge() {
         return age;
     }
 
-    public StudentBuilder setAge(int age) {
+    public void setAge(int age) {
         this.age = age;
-        return this;
     }
 
     public String getGradYear() {
         return gradYear;
     }
 
-    public StudentBuilder setGradYear(String gradYear) {
+    public void setGradYear(String gradYear) {
         this.gradYear = gradYear;
-        return this;
     }
 
 }
