@@ -1,0 +1,10 @@
+package design_patterns.structural_design_patterns.adapter.with_adapter.third_party_apis;
+
+public class ICICIBankApi {
+
+    public int retrieveBalance() {
+        return 2;
+    }
+
+    // ? more similar methods
+}

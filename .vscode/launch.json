@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Client",
             "request": "launch",
+            "mainClass": "design_patterns.structural_design_patterns.adapter.with_adapter.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.structural_design_patterns.adapter.without_adapter.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
             "mainClass": "design_patterns.creational_design_patterns.factory.Client",
             "projectName": "backend_lld_practice_2fb3a2ef"
         },
