@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Client",
             "request": "launch",
+            "mainClass": "design_patterns.structural_design_patterns.decorator.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
             "mainClass": "design_patterns.structural_design_patterns.adapter.with_adapter.Client",
             "projectName": "backend_lld_practice_2fb3a2ef"
         },
