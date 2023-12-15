@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WeatherStation",
+            "request": "launch",
+            "mainClass": "design_patterns.behavorial_design_patterns.observer.WeatherStation",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "design_patterns.creational_design_patterns.singleton.singleton_not_thread_safe.Main",
