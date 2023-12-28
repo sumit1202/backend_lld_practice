@@ -6,6 +6,167 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test2",
+            "request": "launch",
+            "mainClass": "rough.Test2",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "WeatherStation",
+            "request": "launch",
+            "mainClass": "design_patterns.behavorial_design_patterns.observer.WeatherStation",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "design_patterns.creational_design_patterns.singleton.singleton_not_thread_safe.Main",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.structural_design_patterns.decorator.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.structural_design_patterns.adapter.with_adapter.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.structural_design_patterns.adapter.without_adapter.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.creational_design_patterns.factory.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.prototype_registry.prototype_with_registry.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.prototype_registry.prototype.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.builder.builder_v4.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.builder_v4.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.builder_v3.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.builder_v2.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.builder_v1.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "design_patterns.builder.Client",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Test5",
+            "request": "launch",
+            "mainClass": "rough.Test5",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "multithreading.producer_consumer_semaphore.Main",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "threads.producer_consumer.Main",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "threads.concurrency_issues_fix_synchronization.Main",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "threads.concurrency_issues_fix_synchronization.Main",
+            "projectName": "testing_dbfda862"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "threads.sync_issues_fix_mutex.Main",
+            "projectName": "testing_dbfda862"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "threads.sync_issues.Main",
+            "projectName": "testing_dbfda862"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "threads.binary_tree_size_calculator.Main",
+            "projectName": "testing_dbfda862"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "threads.threaded_merge_sort.Main",

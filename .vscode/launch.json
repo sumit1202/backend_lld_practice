@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test2",
+            "request": "launch",
+            "mainClass": "rough.Test2",
+            "projectName": "backend_lld_practice_2fb3a2ef"
+        },
+        {
+            "type": "java",
             "name": "WeatherStation",
             "request": "launch",
             "mainClass": "design_patterns.behavorial_design_patterns.observer.WeatherStation",
